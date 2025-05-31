@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      body,
+      html {
+        height: 100%;
+      }
+      div {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <!-- <button>One</button>
+      <button>Two</button>
+      <button>Three</button> -->
+    </div>
+
+    <script>
+      let arr = [10, 20, 30, 40, 50];
+      console.log(arr);
+
+      arr.forEach((ele) => {
+        console.log(ele);
+      });
+
+      console.log(arr.at(0));
+
+      arr.push(70);
+      console.log(arr);
+      arr.unshift(0);
+      console.log(arr);
+      
+      // arr.pop();
+      // console.log(arr);
+      // arr.shift();
+      // console.log(arr);
+
+      let newArr = arr.slice(2, 7);
+      console.log(newArr);
+
+      arr.splice(3,2,1000);
+      console.log(arr);
+    </script>
+  </body>
+</html>

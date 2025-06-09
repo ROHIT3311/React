@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Progress bar</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="style.css"
+      media="print"
+      onload="this.media=all"
+    />
+
+    <style>
+      .progress {
+        height: 20px;
+        width: 100px;
+        border: 2px solid black;
+        background-color: wheat;
+      }
+      .progress-done {
+        height: 100%;
+        width: 0;
+        background: blue;
+        color: white;
+      }
+    </style>
+  </head>
+
+  <div class="progress">
+    <div class="progress-done"></div>
+  </div>
+
+  <button class="start">Start</button>
+  <button class="stop">Stop</button>
+  <button class="reset">Reset</button>
+
+  <script>
+    let progress = document.querySelector(".progress-done");
+    let start = document.querySelector(".start");
+    let stop = document.querySelector(".stop");
+    let reset = document.querySelector(".reset");
+
+    let totalProgress = 0;
+    let inter;
+
+    start.addEventListener("click", () => {
+      inter = setInterval(() => {
+        if (totalProgress >= 100) {
+          clearInterval(inter);
+        } else {
+          totalProgress += 1;
+          progress.style.width = `${totalProgress}%`;
+        }
+      }, 50);
+    });
+
+    stop.addEventListener("click", () => {
+      clearInterval(inter);
+      inter = null;
+    });
+
+    reset.addEventListener("click", () => {
+      progress.style.width = 0;
+      clearInterval(inter);
+      inter = null;
+      totalProgress = 0;
+    });
+  </script>
+</html>

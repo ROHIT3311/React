@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Accordian</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css" media="print" onload="this.media=all">
+
+		<style>
+			.acc-content.active{
+				display:block;
+				visibility:visible;
+				max-height:500px;
+			}
+	
+			.acc-content{
+				visibility:hidden;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<div class="accordian">
+			<div class="acc-item">
+				<div class="acc-header">Item 1</div>
+
+				<div class="acc-content">Data for Item 1</div>
+			</div> 
+
+			<div class="acc-item">
+				<div class="acc-header">Item 2</div>
+
+				<div class="acc-content">Data for Item 2</div>
+			</div> 
+
+			<div class="acc-item">
+				<div class="acc-header">Item 3</div>
+
+				<div class="acc-content">Data for Item 3</div>
+			</div> 
+
+		</div>
+
+
+		<script>
+			let all_acc_headers = document.querySelectorAll(".acc-header");
+			let all_acc_contents = document.querySelectorAll(".acc-content");
+
+			all_acc_headers.forEach((header) => {
+
+				header.addEventListener("click",() => {
+					let acc_item = header.parentElement;
+					console.log(acc_item);
+
+					const acc_content = acc_item.querySelector(".acc-content");
+					console.log(acc_content);
+
+					all_acc_contents.forEach((content) => {
+						if(content !== acc_content){
+							content.classList.remove("active");
+        						content.style.maxHeight = 0;
+						}
+					});
+
+					acc_content.classList.add("active");
+
+					if(acc_content.classList.contains("active")){
+						acc_content.style.maxHeight=acc_content.scrollHeight+"px";
+					}else{
+						acc_content.style.maxHeight = 0;
+					}
+				});
+				
+			});
+ 		</script>
+	</body>
+</html>

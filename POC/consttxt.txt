@@ -1,0 +1,34 @@
+const obj = {
+  name: 'Alice',
+  outer: function() {
+    console.log('Outer function this:', this.name);  // 'this' refers to 'obj'
+    
+    const inner = function() {
+      console.log('Inner function this:', this.name);  // 'this' is different
+    };
+    inner();  
+  }
+};
+obj.outer();  
+
+function outer(name){
+	this.name = name;
+
+	function inner(){
+		console.log("inner fn : ",this.name);
+	}
+
+	return inner;
+}
+
+let o = outer("john");
+o();
+
+function newOuter(){
+	console.log(this);
+	return function(){
+		console.log(this);
+	}
+}
+let x = newOuter();
+x();

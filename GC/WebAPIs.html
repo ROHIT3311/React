@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web APIs</title>
+  </head>
+  <body>
+    <script>
+      let worker = new Worker("worker.js");
+
+      function getLocation() {
+        navigator.geolocation.getCurrentPosition(
+          (position) => {
+            console.log("Latitude:", position.coords.latitude);
+            console.log("Longitude:", position.coords.longitude);
+          },
+          (error) => {
+            console.error("Geolocation error:", error.message);
+          }
+        );
+      }
+
+      getLocation();
+
+      worker.postMessage(100000000);
+      worker.onmessage = function (event) {
+        console.log("Worker Result:", event.data);
+      };
+    </script>
+  </body>
+</html>

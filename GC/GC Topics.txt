@@ -1,0 +1,200 @@
+JavaScript
+
+Data Types
+
+Scopes - Global, Local/functional, Blocked, Lexical, Dynamic
+
+Hoisting
+
+Closures
+
+Event loop (Event queues, Micro/Macro task, Web API, call stack)
+
+Async operations - callbacks, promises, async/await
+
+OOP in JS
+
+this keyword context
+
+Call, apply and bind
+
+Classical inheritance vs prototypical inheritance
+
+Client side tech
+
+DOM Manipulation
+
+Event listeners, Event capture/bubbling, Event delegation, Debouncing, Throttling
+
+Critical rendering path
+
+ES6 features
+
+Arrow function
+
+Destructuring
+
+Spread and Rest operators
+
+Functional Programming
+
+Pure function
+
+Higher order function
+
+Function composition
+
+Immutability/side effects
+
+HTML
+
+Basic Tags in HTML
+
+Semantic HTML
+
+Web APIs
+
+Storage API
+
+Web workers
+
+CSS
+
+Flexbox, Grid
+
+Box model
+
+Position
+
+How to build responsive design
+
+TailwindCSS or Bootstrap, preprocessors (SASS/LESS)
+
+TypeScript
+
+Basic Types
+
+Variables
+
+Functions
+
+Classes
+
+Interfaces
+
+Types vs Interfaces
+
+Enums
+
+Union
+
+Intersection
+
+React
+
+JSX
+
+Components
+
+Class vs Function Components
+
+Lifecycle Methods
+
+Composition vs inheritance
+
+Controlled/Uncontrolled components
+
+Props and State
+
+Higher Order components
+
+Hooks
+
+useState
+
+useEffect
+
+Routing
+
+React Route
+
+Routes and Route
+
+Routing Hooks
+
+Virtual DOM
+
+Lists and Keys
+
+Reconciliation
+
+State Management
+
+Redux/Redux toolkit
+
+Basics of middlewares
+
+Redux vs Context API
+
+Unit Test
+
+React Testing Library/Jest
+
+FIRST/AAA principles
+
+NodeJS
+
+Event Loop
+
+NPM
+
+File system
+
+Async operation - Promises, Async/Await
+
+Error handling
+
+ExpressJS
+
+Middleware
+
+Routing
+
+Create RESTful HTTP services - GET, POST, PUT, DELETE
+
+Authentication/Authorization (JWT)
+
+Basics of microservices architecture
+Basics of AWS serverless architecture
+MongoDB basics
+
+CRUD operations
+
+Version Control
+
+Basics of Git
+
+Branching strategies (GitFlow)
+
+How to resolve conflicts
+
+Design Principles
+
+SOLID
+
+KISS
+
+DRY
+
+YAGNI
+
+Design Patterns
+
+CI/CD
+
+Process/tools
+
+SDLC Methodologies
+
+Agile/Scrum
+

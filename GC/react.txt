@@ -1,0 +1,200 @@
+•	Life cycle of React hook?
+•	Redux – what are middleware of redux?
+•	Difference in React and Angular?
+•	Performance wise Angular and react both give same results? Then why React.js?
+•	Components of Redux?
+•	What is Pure component in React?
+•	What is HBJS?
+•	What are react hooks and why we need it
+•	How to use callback hooks and use state hook
+•	What is Use Effect hook and how it works and executed
+•	Life cycle of React hook
+•	How to achieve component didmount lifecycle hook in react hooks
+•	Uncontrolled components in hooks ( Useref )
+•	how to use callback hooks and use state hook
+•	why functional component
+•	container vs presentational 
+•	What is Pure component in React?
+•	pure component vs functional 
+•	component update
+props
+•	Render props
+•	props drilling
+Redux
+•	Components of Redux?
+•	What is your opinion with state management in react (is it complex and if so, is it necessary)?
+•	Redux-saga generators
+•	Why we need Redux when we already have React Context?
+
+
+•	For a given mockup create a small application using hooks (to-do application with delete)
+•	Design a Facebook like newsfeed
+•	Design a news aggregator page
+•	Design a chat interface
+
+Mobx vs Flux  vs redux
+reducers
+what are the methods execute before componentdidmount
+
+
+React: 
+How can you pass data from parent to child and child to parent?
+How can you improve performance of an react application? 
+What are hooks? Use effect, 
+Controlled and uncontrolled components
+What do you prefer functional or class components?
+If parent component render child components will re render, how can you stop unnecessary child component re rendering in react
+
+
+React:
+•	Lifecycle
+•	useEffect(): in depth
+•	refs
+•	optimization: in dept
+•	HOC and in built HOC examples
+
+React js:
+1) life cycle methods
+2) writing setState in different ways
+3) Hooks: 
+	a) useEffect in detail and what are the matching lifecycle methods of class component w.r.t useEffect
+	b) useContext ? what is its benefit?
+	c) useMemo and useCallback
+4) explain basic concepts of redux (store,reducer,action)
+
+
+React JS:
+What is static in react?
+Can we call this in static getDerivedStateFromProps?
+How can you extend properties and methods? In class 
+React Life cycle methods?
+What is pure component? 
+What are functional components?
+What are hooks?
+What is usememo, useEffect?
+What is redux?
+Context api In reactJS? UseRef and ref ?
+What will it return when you write ref on components?
+What are higher order components?
+What is saga? What do you prefer saga or thunk?
+
+Is redux by default synchronous? Why how can we achieve asynchronous?
+Write a timer function using hooks which can decrease <Timer sec = {35}> should print 34 33 32.. it should stop what sec equal to 0?
+Performance in react js?
+
+•	Explain how redux state management works. 
+•	Explain about React reconciliation and diffing algorithm.
+•	Explain how context API works in ReactJS
+•	What is the use of useMemo and useCallback. 
+
+1.	Create a component with Todo List items. 
+- Case 1: Input field with add button, When user will fill and press add button should be added in the list
+- Case 2: Once user will click on any item a class should be added which presents line-through the text
+- Case 3: Show the total added list and total line through  items 
+
+
+1.	Users can like a post using LIKE button => the like count should increase by one.
+2.	Users can cancel their like by clicking again on the LIKE button => like count should decrease by one, "liked" class should be removed from the button.
+3.	Users can dislike a post using DISLIKE button => the dislike count should increase by one.
+4.	Users can cancel their dislike by clicking again on the DISLIKE button => dislike count should decrease by one, "disliked" class should be removed from the button.
+
+
+Div grid in react for collapsable functionality
+================================================
+table implementation in react and getting data from api
+
+React
+VDOM vs DOM
+useEffect vs useMemo
+when to create custom hook
+React lifecycle
+Error Boundry
+Middleware
+What is React lazy load
+Redux
+when to use redux
+why not contextAPI or state over redux
+How to connect react with redux
+Lifecycle React-redux
+How component will know store has been updated
+Redux Toolkit
+How to use Query ,mutation and benefits
+Benifits of RTK
+Coding Challenge
+1. Create a component with two button START and STOP. On click of START counter should start coounting
+0,1,2,3,4,…
+When clic on Stop it shoul stop at that point
+STOP clicked when counter value is 10, it should stop at 10 and increment operation should be stopped at that point.
+
+28. React Hook in depth
+29. Use of functional component.
+30. How to test basic components using JEST.
+31. React optimization techniques knowledge
+
+
+REACT
+1.	HOC
+a.	What is it
+b.	Is Redux provider an HOC?
+c.	Is Context provider an HOC?
+2.	Hooks
+3.	useCallback
+4.	useRef
+5.	Diff between angular and react
+
+Virtual DOM In React 
+10) Diffrece between Class component & Function component
+11) All life-cycle Phase/Methods for class component
+12) How Can achive same life-cycle mehtods using hooks 
+13) What all hooks have you used?
+14) One Pair Programming React Problem
+15) React Performance Optimization 
+16) Custom hooks
+17) How you test React Components / Code Coverage
+18) State Management Techniques
+19) When Context & When Redux ?
+Virtual DOM In React 
+10) Diffrece between Class component & Function component
+11) All life-cycle Phase/Methods for class component
+12) How Can achive same life-cycle mehtods using hooks 
+13) What all hooks have you used?
+14) One Pair Programming React Problem
+15) React Performance Optimization 
+16) Custom hooks
+17) How you test React Components / Code Coverage
+18) State Management Techniques
+19) When Context & When Redux ?
+
+What is the technical challenge which you faced in your project and how did you fix it?
+What is virtual DOM?
+Why do we need typescript?
+What are the class component life cycle methods?
+How it is implemented in useEffect hook?
+Can we update state in useEffect? Is it allowed?
+useCallBack vs useMemo hook..What is the usecase of useCallBack and useMemo hook?
+How to debug a react app?
+How are the things to follow when building a component?
+How to share state between components in react?
+Without ContextAPI, how do you maintain state in plain JavaScript?
+What is the use of reducer? Explain redux architecture.
+•  key prop
+•  JSX
+•  advantages of react
+•  virtual DOM
+•  React patterns
+•  controlled components
+•  call, apply, bind
+•  array higher order methods
+•  redux - why redux thunk
+•  reducer as pure function
+•  past project related questions
+•  custom hooks
+
+1. What are the feature of reactJS
+2. Does useEffect update state?, What will happen if you update the state within the useEffect hook
+3. Explain about useContext.
+4. What are the React features you have used in your project
+5. Explain about React.memo
+6. Tell about reducer functionality in redux
+
+
